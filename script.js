@@ -144,7 +144,7 @@ function createGojuonButtons() {
     }
 
     // 機能ボタンを最後に追加（左端の列になる）
-    const functionLabels = ['゛', '゜', 'ぁ', 'ー', '←'];
+    const functionLabels = ['゛', '゜', 'ぁ', 'ー', '<span class="material-icons">backspace</span>'];
     const functionTypes = ['dakuten', 'handakuten', 'small', 'chouon', 'backspace'];
 
     for (let row = 0; row < 5; row++) {
@@ -155,7 +155,7 @@ function createGojuonButtons() {
             button.classList.add('backspace-btn');
         }
 
-        button.textContent = functionLabels[row];
+        button.innerHTML = functionLabels[row];
         button.dataset.function = functionTypes[row];
 
         const clickHandler = (e) => {

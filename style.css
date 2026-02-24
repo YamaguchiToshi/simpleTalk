@@ -60,6 +60,10 @@ body {
     justify-content: center;
 }
 
+.settings-btn .material-icons {
+    font-size: 28px;
+}
+
 .settings-btn:hover {
     background: #0f2a47;
     transform: scale(1.1);
@@ -115,6 +119,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.square-btn .material-icons {
+    font-size: 32px;
 }
 
 .speak-btn {
@@ -211,6 +219,10 @@ body {
     font-size: 1rem;
 }
 
+.kana-btn.backspace-btn .material-icons {
+    font-size: 1.6rem;
+}
+
 .kana-btn.function-btn:hover {
     background: #0f2a47;
 }
@@ -291,6 +303,10 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease;
+}
+
+.close-btn .material-icons {
+    font-size: 28px;
 }
 
 .close-btn:hover {

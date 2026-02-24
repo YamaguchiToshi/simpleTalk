@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>コミュニケーションボード</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
 
 
-    <button id="settingsBtn" class="settings-btn">⚙️</button>
+    <button id="settingsBtn" class="settings-btn"><span class="material-icons">settings</span></button>
 
     <div class="container">
         <div class="input-area">
-            <button id="clearBtn" class="control-btn clear-btn square-btn">✕</button>
+            <button id="clearBtn" class="control-btn clear-btn square-btn"><span class="material-icons">delete_sweep</span></button>
             <textarea id="textOutput" readonly placeholder="ここに入力された文字が表示されます"></textarea>
-            <button id="speakBtn" class="control-btn speak-btn square-btn">🔊</button>
+            <button id="speakBtn" class="control-btn speak-btn square-btn"><span class="material-icons">volume_up</span></button>
         </div>
 
         <div class="keyboard-area">
@@ -30,7 +31,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2>設定</h2>
-                <button class="close-btn" id="closeSettings">&times;</button>
+                <button class="close-btn" id="closeSettings"><span class="material-icons">close</span></button>
             </div>
             <div class="modal-body">
                 <div class="setting-item">
